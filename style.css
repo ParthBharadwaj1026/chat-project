@@ -1,7 +1,7 @@
-#body{
+body{
     background-color: lightseagreen;
 }
-#head{
+.head{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 80px;
@@ -24,6 +24,18 @@
 #img{
     height: 200px;
 }
+#room_inp{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: rgb(3, 99, 80);
+    border-style: solid;
+    border-width: 2.5px;
+    background-color: rgb(30,206,171);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
 #inp_usn{
     height: 30px;
     width: 200px;
@@ -36,7 +48,7 @@
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
 }
-#login_button{
+.btn_style{
     border-style: solid;
     border-width: 2.5px;
     border-color: rgb(3, 99, 80);
