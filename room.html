@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>w.i.p</title>
+        <title>Room</title>
 
         
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +17,23 @@
 
     </head>
     <body>
-        <h1>WORK IN PROGRESS</h1>
+        <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+            <center>
+                <h1 class="head">CHATTER</h1>
+                <hr width="250px" style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+                <div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+            </center>
+        </div>
+        
+        <center>
+            <div class="input_div_message_page">
+                <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+                <label>Send:</label>
+                <input id="msg" type="text" placeholder="Write Your Message..." class="form-control">
+                <button id="btn_send_msg" class="btn btn-success" onclick="send()">Send</button>
+            </div>
+        </center>
         <script src="room.js"></script>
     </body>
+    </html>

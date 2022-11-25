@@ -5,6 +5,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 80px;
+    text-align: center;
 }
 #log{
     border-style: solid;
@@ -78,4 +79,39 @@ body{
     border-width: 2.5px;
     border-color: rgb(3, 99, 80);
     border-radius: 11px;
+}
+.input_div_message_page{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: lightseagreen;
+}
+#logout{
+	font-size: 20px;
+    margin-left: 1000px;
+}
+#msg{
+    width: 80%;
+    border-radius: 10px;
+    border-color: rgb(3, 99, 80);
+    border-style: solid;
+    border-width: 2.5px;
+    background-color: rgb(30,206,171);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+#btn_send_msg{
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb(3, 99, 80);
+    border-radius: 11px;
+}
+.user_tick{
+	width:20px;
+}
+.message_h4{
+	padding-left:5px;
+    color:grey;
 }
