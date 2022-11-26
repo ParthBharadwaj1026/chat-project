@@ -35,3 +35,9 @@ function redirect(name){
     localStorage.setItem('room_name',name);
     window.location='room.html';
 }
+
+function logout(){
+    localStorage.removeItem('UserName');
+    localStorage.removeItem('room');
+    window.location='index.html';
+}

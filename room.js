@@ -45,7 +45,7 @@ function send(){
     document.getElementById('msg').innerHTML="";
 }
 
-function updateLike(message_id){
+function update_like(message_id){
     console.log('Clicked on like button- '+message_id);
     button_id=message_id;
     likes=document.getElementById(button_id).value;
